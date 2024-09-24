@@ -11,6 +11,8 @@
       <el-table-column label="名称" prop="menuName"> </el-table-column>
       <el-table-column label="权限值" prop="permissionValue"> </el-table-column>
       <el-table-column label="跳转权限值" prop="descValue"> </el-table-column>
+
+      
       <el-table-column label="操作" prop="options">
         <template slot-scope="data">
           <el-button
